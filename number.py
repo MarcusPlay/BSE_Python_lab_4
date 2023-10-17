@@ -1,0 +1,7 @@
+print("Enter 4 numbers.")
+num_1 = int(input())
+num_2 = int(input())
+num_3 = int(input())
+num_4 = int(input())
+answer = (num_1 + num_2) / (num_3 + num_4)
+print(f"({num_1} + {num_2}) / ({num_3} + {num_4}) = {answer: .2f}")
